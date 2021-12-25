@@ -1,0 +1,9 @@
+.header {
+	background-image: linear-gradient(-210deg, red, yellow);
+}
+
+#logo {
+	margin-top: -14px;
+	height: 55px;
+	weight: 150px;
+}
