@@ -7,7 +7,130 @@
 	height: 55px;
 	weight: 150px;
 }
+.clicklur-demo-float {
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 7px;
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    width: 300px;
+    background-color: #fff;
+    z-index: 9999999;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
 
+  .clicklur-df-logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: url(https://i.ibb.co/QkH7bpK/ClickLur-Logo.png);
+    margin: 0 10px 0 0
+  }
+
+  .clicklur-rtl .df-logo {
+    float: right;
+    margin: 0 0 0 10px
+  }
+
+  .clicklur-demo-float h3 {
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 7px
+  }
+
+  .clicklur-demo-float p {
+    font-size: 13px;
+    color: #656565;
+    line-height: 1.5em;
+    margin: 0
+  }
+
+  .clicklur-demo-float a {
+    float: left;
+    width: 100%;
+    height: 28px;
+    background-color: #27ae60;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    margin: 15px 0 0;
+    border-radius: 2px;
+    transition: background .17s ease;
+    text-decoration: none;
+  }
+
+  .clicklur-demo-float a:hover {
+    background-color: #2980b9
+  }
+
+  .clicklur-df-hide {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    font-size: 13px;
+    color: #333333;
+    cursor: pointer;
+    transition: color .17s ease
+  }
+
+  .clicklur-rtl .df-hide {
+    right: unset;
+    left: 13px
+  }
+
+  .clicklur-df-hide:hover {
+    color: #e74c3c
+  }
+
+  @media (max-width: 700px) {
+    .clicklur-demo-float {
+    position: fixed;
+    left: 25px;
+    bottom: 60px;
+    width: 100px;
+    background-color: #fff;
+    z-index: 9999999;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .clicklur-df-logo {
+    float: left;
+    width: 72px;
+    height: 72px;
+    background: url(https://i.ibb.co/QkH7bpK/ClickLur-Logo.png);
+    margin: 0 10px 12px 0;
+  }
+  .clicklur-demo-float p {
+    font-size: 12px;
+    color: #656565;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 0
+  }
+
+  .clicklur-demo-float a {
+    float: left;
+    height: auto;
+    background-color: #27ae60;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    margin: 15px 0 0;
+    border-radius: 2px;
+    padding: 3px;
+    text-decoration: none;
+    transition: background .17s ease
+  }
+  }
 body {
 	min-width: 720px;
 }
